@@ -177,6 +177,7 @@ nav {
   gap: 1rem;
   align-items: center;
   justify-content: center;
+  border-radius: 5px;
 }
 .fashion1 {
   background-image: url(/media/fashion1.webp);
@@ -219,4 +220,34 @@ nav {
   grid-row-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
+}
+/* Essentials Section */
+.essentials-section {
+  height: 50vh;
+  background-color: rgb(227, 67, 94);
+  padding-top: 1rem;
+  padding-bottom: 0;
+  width: 80%;
+  margin: auto;
+  margin-top: 4rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5rem;
+}
+.essentials-topic h2 {
+  font-size: 3rem;
+  color: whitegit;
+}
+.essent-img {
+}
+.essent-img .img1 {
+  background-image: url(./media/essentials1.webp);
+}
+.essent-img .img2 {
+  background-image: url(./media/essentials2.webp);
+}
+.essent-img .img3 {
+  background-image: url(./media/essentials3.webp);
 }
