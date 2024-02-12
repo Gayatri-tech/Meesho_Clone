@@ -223,7 +223,7 @@ nav {
 }
 /* Essentials Section */
 .essentials-section {
-  height: 50vh;
+  height: 75vh;
   background-color: rgb(227, 67, 94);
   padding-top: 1rem;
   padding-bottom: 0;
@@ -232,15 +232,38 @@ nav {
   margin-top: 4rem;
   border-radius: 5px;
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  padding: 5rem;
+  gap: 5rem;
+  padding: 4rem;
+}
+.essent-img-container {
+  width: 80%;
+  margin-top: 3.5rem;
 }
 .essentials-topic h2 {
   font-size: 3rem;
-  color: whitegit;
+  color: white;
 }
-.essent-img {
+.essentials-topic button {
+  border-radius: 15px;
+  color: white;
+  margin-left: 35px;
+  border: 4px double palevioletred;
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  background-color: rgb(151, 44, 62);
+}
+.essent-img-container {
+  display: flex;
+  gap: 1.5rem;
+}
+.essent-img .img1,
+.essent-img .img2,
+.essent-img .img3 {
+  height: 330px;
+  width: 200px;
+  background-repeat: no-repeat;
 }
 .essent-img .img1 {
   background-image: url(./media/essentials1.webp);
@@ -250,4 +273,23 @@ nav {
 }
 .essent-img .img3 {
   background-image: url(./media/essentials3.webp);
+}
+.essent-img button {
+  color: white;
+  background-color: rgb(151, 44, 62);
+  font-size: 1.2rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  border-style: none;
+  margin-top: 0.6rem;
+  font-weight: 500;
+}
+.essent-img .btn1 {
+  margin-left: 40px;
+}
+.essent-img .btn2 {
+  margin-left: 50px;
+}
+.essent-img .btn3 {
+  margin-left: 45px;
 }
