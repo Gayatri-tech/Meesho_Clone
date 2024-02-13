@@ -293,3 +293,78 @@ nav {
 .essent-img .btn3 {
   margin-left: 45px;
 }
+/* Product-Section */
+.products-container {
+  height: 100vh;
+  margin-top: 4rem;
+}
+.side-panel {
+  height: 100%;
+  width: 25vw;
+  padding: 1rem;
+}
+.side-panel h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #353543;
+}
+.dropdown-section .sorting {
+  background-color: #fff;
+  width: 90%;
+  padding: 8px 24px;
+  border-radius: 5px;
+  margin-top: 1rem;
+  border: 1px solid #dadae565;
+}
+.sorting option {
+  color: #8b8ba3;
+}
+.dropdown-section label {
+  color: #8b8ba3;
+}
+.dropdown-section select {
+  font-size: 1rem;
+  color: #353543;
+  border-style: hidden;
+}
+.filters-section {
+  margin-top: 1rem;
+  border: 1px solid #dadae565;
+  width: 90%;
+  border-radius: 8px;
+  padding-top: 1rem;
+}
+.filters-topic {
+  border-bottom: 1px solid #7171754b;
+  width: 80%;
+  margin: 0px 24px;
+}
+.filters-topic .name {
+  color: #353543;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.filters-topic .number {
+  color: #8b8ba3;
+  font-size: 0.75rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.8rem;
+}
+.filters-section .filters {
+  width: 80%;
+  background-color: #fff;
+  margin-left: 24px;
+  color: #353543;
+}
+.filters-section select {
+  font-size: 1.1rem;
+  width: 100%;
+  font-weight: 600;
+  border-style: hidden;
+  padding: 1.2rem 0;
+  border-bottom: 1px solid #7171754b;
+}
+.filters-section option {
+  color: #616173;
+}
