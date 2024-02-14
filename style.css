@@ -10,6 +10,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 /* NAV BAR */
 nav {
@@ -532,5 +533,102 @@ nav {
 }
 /* FOOTER */
 footer {
-  background-color: #fff;
+  height: 300px;
+  background-color: rgba(128, 128, 128, 0.043);
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.shop-section {
+  width: 425px;
+  height: 100%;
+}
+.shop-section > p {
+  font-size: 2rem;
+  color: #353543;
+  margin-bottom: 15px;
+}
+.cod {
+  margin-bottom: 25px;
+}
+.fix {
+  font-size: 18px;
+  color: #616173;
+}
+.downloads {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.center {
+  width: 205px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: black;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.icon-size {
+  font-size: 2rem;
+  color: white;
+}
+.text p {
+  color: white;
+}
+.small {
+  font-size: 0.8rem;
+}
+.big {
+  font-size: 1.2rem;
+}
+.careers-section {
+  width: 176px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+.legal-section {
+  width: 220px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+footer a {
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+.reach-section {
+  width: 205px;
+  height: 100%;
+}
+.reach-section p {
+  color: #353543;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 13px;
+  padding-bottom: 15px;
+}
+.icons-list {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contactUs-section {
+  width: 205px;
+  height: 100%;
+}
+.contactUs-section p {
+  color: #353543;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+.contactUs-section li {
+  list-style: none;
+  font-size: 0.8rem;
 }
